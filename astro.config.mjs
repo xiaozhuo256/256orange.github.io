@@ -29,7 +29,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
 	site: "https://xiaozhuo256.github.io",
 
-	base: "my-repo",
+	//base: "my-repo",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
@@ -183,4 +183,5 @@ export default defineConfig({
 		},
 	},
 });
+
 
