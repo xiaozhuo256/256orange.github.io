@@ -18,7 +18,7 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
@@ -46,26 +46,24 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"https://youke1.picui.cn/s1/2025/10/20/68f5fcc2c1e74.png"
-				//"/assets/desktop-banner/d1.webp",
-				//"/assets/desktop-banner/d2.webp",
-				//"/assets/desktop-banner/d3.webp",
-				//"/assets/desktop-banner/d4.webp",
-				//"/assets/desktop-banner/d5.webp",
-				//"/assets/desktop-banner/d6.webp",
-				//"/assets/desktop-banner/d7.webp",
-				//"/assets/desktop-banner/d8.webp",
+				"/assets/desktop-banner/d1.webp",
+				"/assets/desktop-banner/d2.webp",
+				"/assets/desktop-banner/d3.webp",
+				"/assets/desktop-banner/d4.webp",
+				"/assets/desktop-banner/d5.webp",
+				"/assets/desktop-banner/d6.webp",
+				"/assets/desktop-banner/d7.webp",
+				"/assets/desktop-banner/d8.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"https://youke1.picui.cn/s1/2025/10/20/68f5fcc2c1e74.png"
-				//"/assets/mobile-banner/m1.webp",
-				//"/assets/mobile-banner/m2.webp",
-				//"/assets/mobile-banner/m3.webp",
-				//"/assets/mobile-banner/m4.webp",
-				//"/assets/mobile-banner/m5.webp",
-				//"/assets/mobile-banner/m6.webp",
-				//"/assets/mobile-banner/m7.webp",
-				//"/assets/mobile-banner/m8.webp",
+				"/assets/mobile-banner/m1.webp",
+				"/assets/mobile-banner/m2.webp",
+				"/assets/mobile-banner/m3.webp",
+				"/assets/mobile-banner/m4.webp",
+				"/assets/mobile-banner/m5.webp",
+				"/assets/mobile-banner/m6.webp",
+				"/assets/mobile-banner/m7.webp",
+				"/assets/mobile-banner/m8.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -145,26 +143,24 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
-			"https://youke1.picui.cn/s1/2025/10/20/68f5fcc2c1e74.png"
-			//"/assets/desktop-banner/d1.webp",
-			//"/assets/desktop-banner/d2.webp",
-			//"/assets/desktop-banner/d3.webp",
-			//"/assets/desktop-banner/d4.webp",
-			//"/assets/desktop-banner/d5.webp",
-			//"/assets/desktop-banner/d6.webp",
-			//"/assets/desktop-banner/d7.webp",
-			//"/assets/desktop-banner/d8.webp",
+			"/assets/desktop-banner/d1.webp",
+			"/assets/desktop-banner/d2.webp",
+			"/assets/desktop-banner/d3.webp",
+			"/assets/desktop-banner/d4.webp",
+			"/assets/desktop-banner/d5.webp",
+			"/assets/desktop-banner/d6.webp",
+			"/assets/desktop-banner/d7.webp",
+			"/assets/desktop-banner/d8.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"https://youke1.picui.cn/s1/2025/10/20/68f5fcc2c1e74.png"
-			//"/assets/mobile-banner/m1.webp",
-			//"/assets/mobile-banner/m2.webp",
-			//"/assets/mobile-banner/m3.webp",
-			//"/assets/mobile-banner/m4.webp",
-			//"/assets/mobile-banner/m5.webp",
-			//"/assets/mobile-banner/m6.webp",
-			//"/assets/mobile-banner/m7.webp",
-			//"/assets/mobile-banner/m8.webp",
+			"/assets/mobile-banner/m1.webp",
+			"/assets/mobile-banner/m2.webp",
+			"/assets/mobile-banner/m3.webp",
+			"/assets/mobile-banner/m4.webp",
+			"/assets/mobile-banner/m5.webp",
+			"/assets/mobile-banner/m6.webp",
+			"/assets/mobile-banner/m7.webp",
+			"/assets/mobile-banner/m8.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -253,7 +249,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://youke1.picui.cn/s1/2025/10/20/68f5f8455dff6.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Matsuzaka Yuki",
 	bio: "The world is big, you have to go and see",
 	links: [
@@ -466,7 +462,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: false, // 启用看板娘
+	enable: true, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
