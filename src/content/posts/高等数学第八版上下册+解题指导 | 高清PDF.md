@@ -12,9 +12,8 @@ category: posts
 licenseName: "Unlicensed"
 author: xiaozhuo256
 draft: false
+image: "https://youke1.picui.cn/s1/2025/10/21/68f760f93739e.jpg"
 ---
-# 高等数学第八版上下册+解题指导 | 高清PDF
-![image-1](https://youke1.picui.cn/s1/2025/10/21/68f760f93739e.jpg)
 ## 下载链接
 [🔗点此下载](https://xz256.lanzoum.com/b0sy5tvjc)
 密码：9u1z
