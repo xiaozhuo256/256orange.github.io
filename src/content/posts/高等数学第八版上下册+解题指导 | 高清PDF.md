@@ -12,7 +12,7 @@ category: posts
 licenseName: "Unlicensed"
 author: xiaozhuo256
 draft: false
-image: "img src="https://youke1.picui.cn/s1/2025/10/21/68f76b38d8680.jpg"
+image: "https://youke1.picui.cn/s1/2025/10/21/68f76b38d8680.jpg"
 ---
 ## 下载链接
 [🔗点此下载](https://xz256.lanzoum.com/b0sy5tvjc)
