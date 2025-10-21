@@ -27,7 +27,7 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
-	site: "https://xiaozhuo256.github.io",
+	site: "https://256orange.github.io",
 
 	//base: "my-repo",
 	trailingSlash: "always",
@@ -183,5 +183,6 @@ export default defineConfig({
 		},
 	},
 });
+
 
 
